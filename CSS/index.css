@@ -52,16 +52,17 @@ table {
     box-sizing: border-box;
 }
 .header {
-    width: 1920px;
-    height: 123px;
-    background-image: linear-gradient(to bottom, #f1eaf7, #59565c);
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(to bottom, #f1eaf7, #9b94a3);
   }
 nav {
-    width: 1920px;
+    width: 100%;
     height: 62px;
     background-color: #dc9fff;
-    display: inline-block;
-  }  
+    display: flex;
+  }   
+   
 .myName {width: 333px;
     height: 62px;
     font-family: Lobster;
@@ -72,10 +73,8 @@ nav {
     line-height: 1.24;
     letter-spacing: 1.8px;
     text-align: center;
-    color: #372357;}
+    color: #372357;}    
 .navMenu {
-    width: 97px;
-  height: 25px;
   font-family: Lato;
   font-size: 20px;
   font-weight: bold;
@@ -83,11 +82,64 @@ nav {
   font-stretch: normal;
   line-height: 1.2;
   letter-spacing: normal;
-  text-align: left;
-  color: #050505;
+  color: #372357;
+  padding: 5px;
 } 
+button {
+  width: 191px;
+  height: 43.2px;
+  border-radius: 23px;
+  border: solid 3px #ffffff;
+  background-color: #dc9fff;
+  margin: 9px; 
+}
+.artLink {
+  display: flex;
+}
+.artLink img {
+  width: 100px;
+  height: 100px;
+}
+  
+.qrcode {
+  width: 121px;
+  height: 127px;
+  object-fit: contain;
+ }
+.aboutMoi {
+  display: flex;
+}
+.aboutMoi img {
+  width: 38%;
+  margin:2%;
+}
+
+.meText {
+  width: 52%;
+  margin: 2%;
+}
+.intFacts {
+  margin-top: 15px;
+}
+.caseStudy {
+  width: 96%;
+  height: 934px;
+  border-radius: 68px;
+  background-color: #eafafa;
+  margin: 2%;
+  margin: 2%;
+}
+.caseStudy p {
+  width: 30%;
+}
+.caseStudy img {
+  width: 30%;
+}
+.gif {
+  width: 20%;
+}
 h1 {
-    width: 909px;
+  width: 909px;
   height: 116px;
   font-family: Lobster;
   font-size: 90px;
@@ -113,8 +165,6 @@ h2 {
     color: #372357;
   }
   p {
-    width: 909px;
-    height: 169px;
     font-family: Lato;
     font-size: 20px;
     font-weight: normal;
@@ -126,8 +176,6 @@ h2 {
     color: #372357;
   }
  li {
-    width: 687px;
-    height: 150px;
     font-family: Lato;
     font-size: 20px;
     font-weight: normal;
@@ -137,10 +185,27 @@ h2 {
     letter-spacing: normal;
     text-align: left;
     color: #372357;
+ }
+ span {
+   text-decoration: underline;
  } 
-.caseStudy {
-    width: 1790.7px;
-    height: 934px;
-    border-radius: 68px;
-    background-color: #eafafa;
+
+.appLogo {
+  width: 32%;
+  object-fit: contain;
+}
+footer img {
+  width: 3%;
+}
+.itenerary {
+  display: flex;
+  
+}
+.mapView img{
+  width: 16.5%;
+  padding: 20px;
+}
+.listview img{
+  width: 16.5%;
+  padding: 20px;
 }
