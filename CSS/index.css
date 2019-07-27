@@ -73,7 +73,10 @@ nav {
     line-height: 1.24;
     letter-spacing: 1.8px;
     text-align: center;
-    color: #372357;}    
+    color: #372357;
+    margin-right: 8%;
+  } 
+       
 .navMenu {
   font-family: Lato;
   font-size: 20px;
@@ -83,7 +86,8 @@ nav {
   line-height: 1.2;
   letter-spacing: normal;
   color: #372357;
-  padding: 5px;
+  padding: 20px;
+  margin: auto;
 } 
 button {
   width: 191px;
@@ -93,8 +97,14 @@ button {
   background-color: #dc9fff;
   margin: 9px; 
 }
+button p{
+  text-align: center;
+}
 .artLink {
   display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-left: 50%;
 }
 .artLink img {
   width: 100px;
@@ -107,40 +117,46 @@ button {
   object-fit: contain;
  }
 .aboutMoi {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 .aboutMoi img {
-  width: 38%;
-  margin:2%;
+  width: 90%;
+  margin:4%;
 }
 
 .meText {
-  width: 52%;
   margin: 2%;
 }
 .intFacts {
-  margin-top: 15px;
+  margin-top: 40px;
 }
 .caseStudy {
-  width: 96%;
-  height: 934px;
   border-radius: 68px;
   background-color: #eafafa;
   margin: 2%;
-  margin: 2%;
-}
-.caseStudy p {
-  width: 30%;
-}
-.caseStudy img {
-  width: 30%;
+  padding: 2%;
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+} 
+.caseStudy div{
+  padding: 2%;
 }
 .gif {
-  width: 20%;
+  width: 90%;
+  margin: auto;
+  display: block;
+  align-items: end;
+}
+
+.quickInfo {
+  display: block;
+  align-items: center;
+}
+.quickInfo div {
+  margin-top: 20%;
 }
 h1 {
-  width: 909px;
-  height: 116px;
   font-family: Lobster;
   font-size: 90px;
   font-weight: normal;
@@ -152,8 +168,7 @@ h1 {
   color: #372357;
 }
 h2 {
-    width: 909px;
-    height: 47px;
+
     font-family: Lobster;
     font-size: 35px;
     font-weight: normal;
@@ -191,21 +206,62 @@ h2 {
  } 
 
 .appLogo {
-  width: 32%;
+  width: 80%;
   object-fit: contain;
+}
+footer {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 footer img {
   width: 3%;
-}
-.itenerary {
-  display: flex;
   
 }
-.mapView img{
-  width: 16.5%;
-  padding: 20px;
+.keep{
+  width: 96%;
+  margin: 2%;
+  display: grid;
 }
-.listview img{
-  width: 16.5%;
-  padding: 20px;
+.mapView {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: end;
+}
+.mapView img {
+  width: 85%;
+}
+.itinerary {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 96%;
+  margin: 2%;
+}
+.listview {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.listview img {
+  width: 85%;
+  margin-left: 4%;
+}
+.slidesLink{
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 480px) 
+{
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 22;
+  }
+  p {
+    font-size: 18px;
+  }
+  li {
+    font-size: 18px;
+  }
 }
