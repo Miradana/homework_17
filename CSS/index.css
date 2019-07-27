@@ -264,4 +264,31 @@ footer img {
   li {
     font-size: 18px;
   }
+  .myName {
+    font-size: 22px;
+  }
+  .navMenu {
+    font-size: 16px
+  }
+  button {
+    width: 134px;
+    height: 40px;}
+  button p {
+    font-size: 20px;
+  }  
+  .aboutMoi {
+    display: block;
+  }
+  .caseStudy {
+    display: block;
+  }
+  .itinerary {
+    display: block;
+  }
+
+  
+    
+
+
+
 }
