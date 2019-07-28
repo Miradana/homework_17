@@ -63,8 +63,7 @@ nav {
     display: flex;
   }   
    
-.myName {width: 333px;
-    height: 62px;
+.myName {
     font-family: Lobster;
     font-size: 45px;
     font-weight: normal;
@@ -75,6 +74,7 @@ nav {
     text-align: center;
     color: #372357;
     margin-right: 8%;
+    margin-left: 1%;
   } 
        
 .navMenu {
@@ -103,22 +103,18 @@ button p{
 .artLink {
   display: flex;
   align-items: flex-end;
-  justify-content: center;
+  text-align: center;
   margin-left: 50%;
-}
-.artLink img {
-  width: 100px;
-  height: 100px;
-}
-  
-.qrcode {
-  width: 121px;
-  height: 127px;
+} 
+.artLink img{
+  width: 50px;
+  height: 50px;
   object-fit: contain;
+  margin-left: 20%;
  }
 .aboutMoi {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 40% 60%;
 }
 .aboutMoi img {
   width: 90%;
@@ -154,11 +150,14 @@ button p{
   align-items: center;
 }
 .quickInfo div {
-  margin-top: 20%;
+  margin-top: 60%; 
+}
+.quickInfo p{
+  vertical-align: bottom;
 }
 h1 {
   font-family: Lobster;
-  font-size: 90px;
+  font-size: 83px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -245,10 +244,11 @@ footer img {
   width: 85%;
   margin-left: 4%;
 }
-.slidesLink{
+.slidesLink p{
   text-align: center;
-}
+  
 
+}
 
 @media only screen and (max-width: 480px) 
 {
@@ -285,10 +285,8 @@ footer img {
   .itinerary {
     display: block;
   }
-
-  
-    
-
-
+  .header {
+    width: 0%;
+    height: 0px;}
 
 }
